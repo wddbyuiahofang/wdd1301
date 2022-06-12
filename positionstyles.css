@@ -34,7 +34,7 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns: 20px [col-start] 20px [col-start] 20px [col-start];
+  grid-template-columns: 1fr 1fr;
 }
   
 .red2 {
@@ -48,8 +48,9 @@
   width: 150px; 
   height: 150px; 
   background-color: green; 
+  justify-self: center;
+}
   
-} 
 .yellow2 {
   width: 150px; 
   height: 150px;  
@@ -140,7 +141,7 @@
   width: 200px; 
   height: 200px; 
   background-color: gold; 
-
+  grid-column: 2/3;
 } 
 .blue5 {
   width: 100%; 
