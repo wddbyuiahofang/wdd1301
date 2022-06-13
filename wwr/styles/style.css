@@ -123,8 +123,13 @@ nav a:hover {
     width: 80px;
     padding-top: 10px;
 }
+
 .card-img, .mountains {
     width: 100%;
+}
+element.style{
+    display:grid;
+    grid-template-columns: repreat(10,1fr);
 }
 .rivers-card{
     margin: 200px 0;
