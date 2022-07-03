@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Rock+Salt&display=swap'); 
+
+header {
+    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo_link {
+    padding-top: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo{
+    width: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    width:100%;
+}
+
+#background {
+    height: 725px;
+    background-color: #EFC3E6;
+    grid-column: 1/11;
+    grid-row: 4/9;
+}
+
+nav a {
+    text-align: center;
+    margin: 0 auto;
+    color: #d9c2a3;
+    text-decoration: none;
+    padding: 35px;
+}  
+nav a:hover {
+    background-color: #EFC3E6;
+    color: #F7F7FF
+
+}
+
+.home-title{
+    color: #d9c2a3;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+
+.button-box{
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer{
+    background-color:#EFC3E6;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
