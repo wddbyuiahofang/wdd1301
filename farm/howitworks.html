@@ -23,39 +23,62 @@
             display:grid;
             grid-template-columns:1fr; 
             ">
-            <section id="hero-msg">
+            <section id="hero-msg;">
                 <h1 class="home-title">HOW IT WORKS</h1>
                 <h4>Organic Products For You To Choose</h4>
             </section>
         </div>
         </body>
 
-        <main class="home-grid" style="text-align: center;";">
-            <section class="FRESH FRUITS-card" style="text-align: center;">
-                <img class="card-img" src="images/grapes.jpeg" alt="">
-            
-                <h2>FRESH FRUITS
+        <main class="home-grid" style="text-align: center; 
+            display: grid; 
+            grid-template-columns:50% 50% 50% 50%;
+            grid-template-rows: 20% 20% 20% 20%;
+            ;">
+            <section class="FRESH FRUITS-card" style="text-align: center;
+                grid-column: 1;
+                grid-row: 1;
+                ">
+                <img class="card-img" src="images/grapes.jpeg" alt="fruits" style ="margin: 200px 0;width: 50%; height:50%;">
+                <h2 
+                style="grid-column: 1/2;
+                grid-row: 2/3; ">FRESH FRUITS
                     Wheter you are a fruits fanatic, veg head or love it all, you can choose(and change) the size and type of produce box that works for you.
                 </h2>
             </section>
-            <section class="milk-card" style="text-align: center;">
-                <img class="milk-img" src="images/milk.jpeg" alt="">
+            <section class="milk-card" style="text-align: center;
+    
+                grid-column: 2/3;
+                grid-row: 1/2;">
+                <img class="milk-img" src="images/milk.jpeg" alt="milk" style ="margin: 200px 0;width: 50%; height: 50%;">
                 
-                <h2>ORGANIC FOODS
+                <h2 style="grid-column: 2/3;
+                grid-row: 2/3; "
+                >ORGANIC FOODS
                     We have milk,ice cream, and bread here, they are all produced in a healthy way, the food here is very healthy.
                 </h2>
             </section>
-            <section class="cows-card" style="text-align: center;">
-                <img class="cows" src="images/cows.jpeg" alt="cows">
+            <section class="cows-card" style="text-align: center;
+               
+                grid-column: 1/2;
+                grid-row: 3/4;">
+                <img class="cows" src="images/cows.jpeg" alt="cows" style ="margin: 200px 0;width: 50%; height: 50%;">
                 
-                <h2>ANIMALS
+                <h2 style="grid-column: 1/2;
+                grid-row: 4/5;">
+                >ANIMALS
                     The anjimals here are very friendly, we have cows, sheep, and chickens. You can get close to them and be friends with them.
                 </h2>
             </section>
-            <section class="farm-card" style="text-align: center;">
-                <img class="farm" src="images/farm.jpeg" alt="farm">
+            <section class="farm-card" style="text-align: center;
+                grid-column: 2/3;
+                grid-row: 3/4;
+                ">
+                <img class="farm" src="images/farm.jpeg" alt="farm" style ="margin: 200px 0;width: 50%; height: 50%;">
                 
-                <h2>COMFORTABLE ENVIRONMENT
+                <h2 style="grid-column: 2/3;
+                grid-row: 4/5;"
+                ">COMFORTABLE ENVIRONMENT
                     The scenery is very beautiful and the air is fresh, you can take your time for resting and enjoy nature here.
                 </h2>
             </section>
