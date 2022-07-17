@@ -52,18 +52,19 @@ nav a {
 }  
 nav a:hover {
     background-color: #1ccad8;
-    color: #F7F7FF
-
-}
-
-.home-title{
-    color:   #587291;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
     margin-top: 10px;
     text-align: center;
 }
 
+.home-title{
+    color: #1ccad8;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
+}
 
 h4{
     color: #1ccad8; 
@@ -105,17 +106,16 @@ main{
 h2{
     color:  #1ccad8;
 }
-+
+
 main.event-home-grid{
     text-align: center; 
     display: grid; 
-    grid-template-columns:  50% 50% 50% 50% 50%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 50% 50% 50% 50% 50%;
+    grid-template-rows: 20% 20% 20% 20%;
     grid-gap: 20px;
 }
 
 pick-card{
-    text-align: center;
     grid-column: 1/2;
     grid-row: 2/3;
 }
@@ -133,12 +133,11 @@ food-card{
     grid-row: 2/3;
 }
 
-pick-img {
-    width: 50%; 
-    height: 100%;
+h2{
+    color:#587291;
 }
-
-food-img{
-    width: 50%; 
-    height: 20%;
+h3{
+    color:#587291;
+    text-align: center;
+    font-size:2em;
 }
